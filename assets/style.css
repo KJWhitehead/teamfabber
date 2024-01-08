@@ -1,5 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+
+.outerbox {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid blue;
+}
+
 .box {
     width: 200px;
     height: 200px;
     background-color: teal;
+    border: 20px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.secondbox {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 1px black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.anotherbox {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.box1, .box2, .box3 {
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.box1 {
+    background-color: fuchsia;
+}
+
+.box2 {
+    background-color: mediumseagreen;
+}
+
+.box3 {
+    background-color: aliceblue;
 }
